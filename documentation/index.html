@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Phyton Simple Start</header>
+      <a class="nav-link" href="#Display_on_the_screen"
+        >Display on the screen</a
+      >
+      <a class="nav-link" href="#Variables">Variables</a>
+      <a class="nav-link" href="#Adding">Adding</a>
+      <a class="nav-link" href="#if_else">if else</a>
+      <a class="nav-link" href="#For_loop">For loop</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Display_on_the_screen">
+        <header>Display on the screen</header>
+        <p>
+          To Display on the screen or to output anything in this example "hello
+          world" we use the <strong>print</strong> method.
+        </p>
+        <code> print("hello world")</code>
+        <p>You can also print numbers</p>
+        <code>print(2)</code>
+      </section>
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <p>
+          Variables are containers for <strong>storing</strong> data values.
+        </p>
+        <p>Here are some of the types of variables in python.</p>
+        <li>
+          <strong>Numbers</strong>: Number data types store numeric values.
+          Number objects are created when you assign a value to them.
+          <p>
+            For example,
+            <code>x = 5 </code>creates an integer object with the value
+            <strong>5</strong>.
+          </p>
+        </li>
+        <li>
+          <strong>String:</strong> A string is a collection of one or more
+          characters put in a single quote, double-quote, or triple-quote.
+          <p>
+            For example, <code>y = "John"</code> creates a string object with
+            the value <strong>“John”</strong>.
+          </p>
+        </li>
+        <li>
+          <strong>List:</strong> A list is a collection which is ordered and
+          changeable. Lists are written with square brackets.
+          <p>
+            For example,
+            <code>my_list = ["apple", "banana", "cherry"]</code> creates a
+            <strong>list object</strong> with three elements.
+          </p>
+        </li>
+        <li>
+          <strong>Tuple:</strong> A tuple is a collection which is ordered and
+          unchangeable. Tuples are written with round brackets.
+          <p>
+            For example,
+            <code>my_tuple = ("apple", "banana", "cherry")</code> creates a
+            <strong>tuple object</strong> with three elements.
+          </p>
+        </li>
+        <li>
+          <strong>Dictionary:</strong> A dictionary is a collection which is
+          unordered, changeable and indexed. Dictionaries are written with curly
+          brackets, and they have keys and values.
+          <p>
+            For example,
+            <code>my_dict = {"name": "John", "age": 36}</code> creates a
+            <strong>dictionary object</strong> with two key-value pairs.
+          </p>
+        </li>
+      </section>
+      <section class="main-section" id="Adding">
+        <header>Adding</header>
+        <p>To add two numbers we just add them like this:</p>
+        <code>print(2+2)</code>
+        <p>or assign to a variable and add them any time</p>
+
+        <pre> <code> x = 12
+ y = 10
+ print(x+y)</code></pre>
+      </section>
+      <section class="main-section" id="if_else">
+        <header>if else</header>
+        <p>
+          In Python, the <code>if</code> statement is used to execute a block of
+          code only when a certain condition is met. The syntax of the
+          <code>if</code> statement in Python is:
+        </p>
+
+        <pre><code> a = 200
+ b = 33
+ if b > a:
+  print("b is greater than a")
+ elif a == b:
+  print("a and b are equal")
+ else:
+  print("a is greater than b")
+       </code>  </pre>
+      </section>
+      <section class="main-section" id="For_loop">
+        <header>For loop</header>
+        <p>
+          A for loop is used for iterating over a sequence (that is either a
+          list, a tuple,a dictionary, a set, or a string).
+        </p>
+        <p>Print each fruit in a fruit list:</p>
+
+        <pre><code> fruits = ["apple", "banana", "cherry"]
+ for x in fruits:
+  print(x)</code></pre>
+      </section>
+      
+    </main>
+  </body>
+</html>
